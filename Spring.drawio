@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2022-03-13T14:13:44.756Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.1.2" etag="x7jY-J4gdu6xMKa62psA" type="github"><diagram id="G8Xfgcabyp79MKr4GAbQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-13T14:20:58.868Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="8QYRs8qPMqHnqvg12dsM" version="17.1.2" type="github">
+  <diagram id="G8Xfgcabyp79MKr4GAbQ" name="Page-1">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;接口&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="665" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-2" value="BeanFactory" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="354" y="480" width="206" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-3" value="Aware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="354" y="540" width="206" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-4" value="BeanDefinition" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="354" y="610" width="206" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-5" value="BeanDefinitionReader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="354" y="670" width="206" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-6" value="BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="354" y="730" width="206" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="Ztmm2mGXP8M8KlRXeJQL-7" target="Ztmm2mGXP8M8KlRXeJQL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-7" value="Enviroment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="354" y="800" width="206" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ztmm2mGXP8M8KlRXeJQL-8" target="Ztmm2mGXP8M8KlRXeJQL-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-8" value="FactoryBean" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="354" y="870" width="206" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-9" value="StandardEnviroment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="590" y="800" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="300" y="480" width="30" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-17" value="&lt;font style=&quot;font-size: 12px&quot;&gt;都是用来创建对象的，&lt;br&gt;当使用BeanFactory的时候必须要遵循完整的创建过程，这个过程是由Spring管理的&lt;br&gt;而使用FactoryBean只需要调用getObject就可以返回具体的对象，整个对象的创建过程是由用户自己来控制的，更加灵活。&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="930" y="740" width="180" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=220;exitDy=30;exitPerimeter=0;fontSize=12;" edge="1" parent="1" source="Ztmm2mGXP8M8KlRXeJQL-18" target="Ztmm2mGXP8M8KlRXeJQL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztmm2mGXP8M8KlRXeJQL-18" value="&lt;font style=&quot;font-size: 12px&quot;&gt;BeanFactory和FactoryBean的区别&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="630" y="865" width="260" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
